@@ -1,20 +1,16 @@
-const productName = "Repair droid";
-console.log(productName[0]); // "R"
-console.log(productName[5]); // "r"
-console.log(productName[11]); // "d"
-console.log(productName[productName.length - 1]); // "d"
+const colors = [
+  { hex: "#f44336", rgb: "244,67,54" },
+  { hex: "#2196f3", rgb: "33,150,243" },
+  { hex: "#4caf50", rgb: "76,175,80" },
+  { hex: "#ffeb3b", rgb: "255,235,59" },
+];
+const hexColors = [];
+const rgbColors = [];
 
-
-function checkForSpam(message) {
-  let result;
-  // Change code below this line
-  if(message.toLowerCase().includes("spam", "sale") {
-    result = true
-  } else {
-    result = false;
-  }
-  
-  // Change code above this line
-  return result;
-}
- 
+// Change code below this line
+for (const color of colors){
+hexColors.push(colors.hex);
+rgbColors.push(colors.rgb);
+};
+console.log(hexColors);
+console.log(rgbColors);
